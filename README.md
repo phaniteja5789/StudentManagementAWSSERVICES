@@ -34,7 +34,8 @@ JSON, Boto3,Requests,s3fs, AWS CLI
 
 From AWS Management Console Stage-1 has been developed <br/>
 
-**Stage-2**
+**Stage-2**  
+
     1.) Installed required modules in the Local virtual environment <br/>
     2.) Created a JSON File with the required details <br/>
     3.) Created the S3 client and Lambda Client using BOTO3 API <br/>
@@ -45,7 +46,8 @@ From AWS Management Console Stage-1 has been developed <br/>
 
 The Code for Stage 2 is present in SourceCode.ipynb <br/>
 
-  **Stage-3**
+  **Stage-3**  
+  
     1.) In the Lambda Function the uploaded object data event will be fetched <br/>
     2.) Created 2 Dynamo DBs tables with StudentId as Partition Key and StudentName as SortKey in both tables <br/>
     3.) Based on object data the record will be inserted into the respective dynamodb table <br/>
