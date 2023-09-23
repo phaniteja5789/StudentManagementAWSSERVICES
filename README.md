@@ -55,4 +55,4 @@ The Code for Stage 2 is present in SourceCode.ipynb <br/>
     5.) Lambda Function will publish the message to the SNS Topic that is created in Stage-1 <br/>
     6.) The Message will be sent to the Subscriber Email from Boto3 API using the SNS Client <br/>
 
-    
+The code for Stage 3 is present in ProcessStudentDetailsFunction.py <br/>
